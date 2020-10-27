@@ -20,13 +20,13 @@ public class Main {
                 {
                     double x1 = b/a;
                     double x2 = x1*(-1);
-                    System.out.printf("x<%f or x>%f",x1,x2);
+                    System.out.printf("x<%.1f or x>%.1f",x1,x2);
                 }
                 else
                 {
                     double x1 = b/a;
                     double x2 = x1*(-1);
-                    System.out.printf("%f<x<%f",x1,x2);
+                    System.out.printf("%.1f<x<%.1f",x1,x2);
                 }
             }
         }
